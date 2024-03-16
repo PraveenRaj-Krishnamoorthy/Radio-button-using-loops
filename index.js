@@ -1,6 +1,6 @@
 // if, else if, else
 const gender=()=>{
-    let output = document.querySelector(".show");
+    let output = document.querySelector(".gender");
     let m = document.getElementById("m");
     let f = document.getElementById("f");
     if (m.checked) {
