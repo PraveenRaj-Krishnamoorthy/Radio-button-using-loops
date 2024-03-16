@@ -1,3 +1,4 @@
 # Radio button using loops
-gender codding added!
- 
+gender coding added!<br>
+size coding added!<br>
+number coding added!

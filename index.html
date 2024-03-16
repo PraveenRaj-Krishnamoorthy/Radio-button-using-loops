@@ -9,14 +9,36 @@
 </head>
 
 <body>
-    <div class="gender">
+    <div class="GENDER">
         <h4>if,else if, else</h4>
         <label for="male">Male</label>
         <input type="radio" name="g1" id="m" value="Male">
         <label for="female">Female</label>
         <input type="radio" name="g1" id="f" value="Female">
-        <button type="button" onclick="func()">Gender</button>
-        <h1 class="show"></h1>
+        <button type="button" onclick="gender()">Gender</button>
+        <h1 class="gender"></h1>
+    </div>
+    <div class="SIZE">
+        <h4>For Loop</h4>
+        <label for="">Size Check</label>    
+        <input type="radio" name="s1" id="s" value="Size Available">S
+        <input type="radio" name="s1" id="m" value="No Stock">M
+        <input type="radio" name="s1" id="l" value="Limited Stock">L
+        <input type="radio" name="s1" id="xl" value="4 Stock Available">XL
+        <input type="radio" name="s1" id="xxl" value="Comming Soon..!">XXL
+        <button type="button" onclick="size()">Size</button>
+        <h1 class="size"></h1>
+    </div>
+    <div class="NUMBER">
+        <h4></h4>
+        <label for="">Number</label>
+        <input type="radio" name="n1" id="One" value="One">
+        <input type="radio" name="n1" id="Two">
+        <input type="radio" name="n1" id="Three">
+        <input type="radio" name="n1" id="Four">
+        <input type="radio" name="n1" id="Five">
+        <button type="button" onclick="number()">Number</button>
+        <h1 class="number"></h1>
     </div>
 </body>
 <script src="index.js"></script>
